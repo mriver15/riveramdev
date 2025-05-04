@@ -6,4 +6,4 @@ services:
     container_name: personal-profile
     restart: unless-stopped
     ports:
-      - "3001:80"  # Host:Container (adjust host port if needed)
+      - "8080:80"  # Host:Container (adjust host port if needed)
